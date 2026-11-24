@@ -1,0 +1,6 @@
+# Old Framer addresses -> new pages (keeps Google ranking and old links working)
+/film-and-edit   /#archive          301
+/3d-animation    /#archive          301
+/about           /#about            301
+/podcasts        /production.html#podcasts  301
+/production      /production.html   301

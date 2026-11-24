@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Fuel-Film | Video Production in London and Bristol</title>
+  <meta name="description" content="Fuel-Film is a video production company in London and Bristol, led by Jon Feuell. Branded documentaries, events, television, live sport, podcasts and animation, from a single operator to a full crew.">
+  <meta name="theme-color" content="#1f1f1f">
+  <meta property="og:title" content="Fuel-Film | Video Production in London and Bristol">
+  <meta property="og:description" content="Branded documentaries, events, television, live sport, podcasts and animation.">
+  <meta property="og:image" content="https://fuel-film.com/assets/og.png">
+  <meta property="og:url" content="https://fuel-film.com/">
+  <link rel="canonical" href="https://fuel-film.com/">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=7">
+</head>
+<body>
+  <a class="skip" href="#work">Skip to work</a>
+
+  <header class="site-head" id="top">
+    <a class="brand" href="#top" aria-label="Fuel-Film home"><img src="assets/logo.svg" alt="Fuel-Film" width="44" height="44"></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="production.html">Production</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#contact">Start a project</a>
+    </nav>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+  </header>
+
+  <div class="menu" id="menu" hidden>
+    <nav aria-label="Mobile">
+      <a href="#work">Work</a>
+      <a href="production.html">Production</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <p class="menu-foot">Film · Edit · 3D Animation</p>
+  </div>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-poster" src="assets/hero-poster.jpg" alt="">
+        <div class="hero-reel" id="reel"></div>
+      </div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-inner wrap">
+        <h1 class="hero-logo"><img src="assets/logo.svg" alt="Fuel-Film" width="520" height="518"></h1>
+        <div class="hero-side">
+          <p class="hero-lede">Professional video production for your brand. Documentaries, events, television, live sport, animation, branded documentaries, adverts and more.</p>
+          <div class="cta-row">
+            <button class="btn btn-solid" type="button" id="play-reel"><span class="tri" aria-hidden="true"></span>Play reel</button>
+            <a class="btn btn-line" href="#contact">Start a project</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot wrap" aria-hidden="true">
+        <span>Branded Docs</span><span>Events</span><span>Live Sport</span><span>Animation</span>
+      </div>
+    </section>
+
+    <!-- CLIENT STRIP -->
+    <section class="strip" aria-label="Clients and credits">
+      <p class="strip-label">Clients and credits include</p>
+      <div class="marquee"><div class="marquee-track" id="marquee"></div></div>
+    </section>
+
+    <!-- TWO WAYS IN -->
+    <section class="section wrap" id="start">
+      <div class="paths">
+        <article class="path path-solid reveal">
+          <span class="tag">For brands and businesses</span>
+          <h3>Commission a production</h3>
+          <p>Need a film made? Planned, shot and delivered start to finish, with a crew sized to the job.</p>
+          <ul><li>Branded documentaries</li><li>Events</li><li>Video podcasts</li><li>Adverts</li><li>Animation</li></ul>
+          <a class="btn" href="#contact" data-type="Commission a production">Start a project</a>
+        </article>
+        <article class="path reveal">
+          <span class="tag">For TV, sport and production companies</span>
+          <h3>Hire crew</h3>
+          <p>An experienced camera operator or shooter-editor with own kit. Credits include the BBC, ITV and ringside for Matchroom Boxing.</p>
+          <ul><li>Camera operator</li><li>Self-shooter</li><li>Shooter-editor</li><li>Extra operators on request</li></ul>
+          <a class="btn btn-solid" href="#contact" data-type="Hire crew (camera operator)">Check availability</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SELECTED WORK -->
+    <section class="section wrap" id="work">
+      <div class="sec-head reveal">
+        <span class="idx">01</span>
+        <h2>Selected work</h2>
+        <p>Projects taken from first idea to final delivery: brand animation, documentary and commercial film.</p>
+      </div>
+      <div class="features" id="features"></div>
+    </section>
+
+    <!-- ALL WORK -->
+    <section class="section wrap" id="archive">
+      <div class="sec-head reveal">
+        <span class="idx">02</span>
+        <h2>All projects</h2>
+        <p>The full range, with the role played on each one. Pick a type of work to narrow it down.</p>
+      </div>
+      <div class="filters" id="filters" role="tablist" aria-label="Filter projects"></div>
+      <div class="grid" id="grid" aria-live="polite"></div>
+      <div class="more-row"><button class="btn btn-line" type="button" id="more" hidden></button></div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="services">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="idx">03</span>
+          <h2>What we do</h2>
+          <p>Based in London and Bristol. One point of contact from brief to delivery. The crew is built around the project, so you get the right people and kit without paying for a standing team.</p>
+        </div>
+        <div class="services">
+          <article class="service reveal">
+            <span class="service-n">A</span>
+            <h3>Branded documentaries</h3>
+            <p>Short documentaries about your people, places and work. Real stories rather than adverts, made for your website, pitches and social.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service-n">B</span>
+            <h3>Film production</h3>
+            <p>Commercials, events, live sport, video podcasts, interviews and property tours. Shot solo or with a full crew of camera, sound, lighting and drone operators.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service-n">C</span>
+            <h3>Edit and post</h3>
+            <p>Offline edit, colour, sound and motion graphics. Long form, short form and vertical cut-downs for social, delivered ready to publish.</p>
+          </article>
+          <article class="service reveal">
+            <span class="service-n">D</span>
+            <h3>3D animation</h3>
+            <p>Product visuals, technical breakdowns, explainers and animated ads that stay true to your brand guidelines.</p>
+          </article>
+        </div>
+
+        <ol class="steps">
+          <li class="reveal"><span>1</span><h3>Brief</h3><p>Tell us what you need and who it is for. You get a clear plan, timeline and quote.</p></li>
+          <li class="reveal"><span>2</span><h3>Produce</h3><p>We bring the crew and kit, or build it in 3D. You see progress at agreed checkpoints.</p></li>
+          <li class="reveal"><span>3</span><h3>Deliver</h3><p>Finished films in every format you need, with rounds of feedback built in.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section wrap" id="about">
+      <div class="sec-head reveal">
+        <span class="idx">04</span>
+        <h2>About</h2>
+      </div>
+      <div class="about">
+        <figure class="about-photo reveal">
+          <img src="assets/jon.jpg" alt="Jon Feuell" loading="lazy" width="1200" height="1012">
+          <figcaption>Jon Feuell, founder</figcaption>
+        </figure>
+        <div class="about-text reveal">
+          <p class="big">Fuel-Film is led by Jon Feuell, a videographer, editor, 3D animator and motion graphics specialist.</p>
+          <p>On set, Jon has worked on BBC productions including The Great British Sewing Bee and operated ringside cameras for Matchroom Boxing. Time spent at a film equipment rental company means he knows the kit inside out, and he holds a First Class Honours degree in Film and TV Production.</p>
+          <p>In post, the work runs from corporate and event edits to animated travel adverts, 3D technical breakdowns for engineering firms, and maps and animations for the YouTube channels Mossy Earth and Echo.</p>
+          <p>For bigger productions, Jon brings in trusted freelance crew, so every project gets a team sized to the job.</p>
+          <ul class="tags">
+            <li>Camera operating</li><li>Editing</li><li>Colour</li><li>3D animation</li><li>Motion graphics</li><li>Animated maps</li><li>Photogrammetry</li><li>Gaussian splatting</li><li>Drone mapping</li><li>Underwater filming</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="wrap contact-grid">
+        <div class="contact-intro reveal">
+          <span class="idx">05</span>
+          <h2>Got a project?<br>Let's make it.</h2>
+          <p>Share a few details and you will get a reply with ideas, a rough timeline and next steps.</p>
+          <ul class="contact-links" id="contact-links"></ul>
+        </div>
+        <form class="form reveal" id="contact-form" novalidate>
+          <label>Name<input type="text" name="name" autocomplete="name" required></label>
+          <label>Email<input type="email" name="email" autocomplete="email" required></label>
+          <label>What do you need?
+            <select name="type">
+              <option>Commission a production</option>
+              <option>Branded documentary</option>
+              <option>Event filming</option>
+              <option>Video podcast</option>
+              <option>Hire crew (camera operator)</option>
+              <option>Editing</option>
+              <option>3D animation</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Tell us about it<textarea name="message" rows="5" required></textarea></label>
+          <button class="btn btn-solid" type="submit">Send enquiry</button>
+          <p class="form-note" id="form-note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot wrap">
+    <img src="assets/logo.svg" alt="Fuel-Film" width="56" height="56" loading="lazy">
+    <p>© <span id="year">2026</span> Fuel-Film. All rights reserved.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- VIDEO PLAYER -->
+  <dialog class="player" id="player" aria-label="Video player">
+    <button class="player-close" type="button" aria-label="Close video">Close ✕</button>
+    <div class="player-frame" id="player-frame"></div>
+    <div class="player-meta">
+      <div><span id="player-client"></span><h3 id="player-title"></h3></div>
+      <div class="player-right"><span id="player-role"></span><a id="player-link" target="_blank" rel="noopener">Open original ↗</a></div>
+    </div>
+  </dialog>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <script src="js/config.js?v=3"></script>
+  <script src="js/projects.js?v=4"></script>
+  <script src="js/main.js?v=4"></script>
+</body>
+</html>
